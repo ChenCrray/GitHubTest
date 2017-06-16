@@ -17,6 +17,22 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes.VS.Modern"
+    },
+    {
+      "docset_name": "chenxingdoc",
+      "build_source_folder": "ChenCrray/ChenXingRepo1",
+      "build_output_subfolder": "chenxingdoc",
+      "locale": "en-us",
+      "monikers": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [],
@@ -26,6 +42,12 @@
     {
       "path_to_root": "_themes.VS.Modern",
       "url": "https://github.com/Microsoft/templates.vs.com",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
     }
